@@ -1,0 +1,31 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "cleanblog",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesweb/CleanBlog.git"
+  },
+  "keywords": [
+    "clean",
+    "blog"
+  ],
+  "author": "Ahmet Eren Sancar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aesweb/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/aesweb/CleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "2.3.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
